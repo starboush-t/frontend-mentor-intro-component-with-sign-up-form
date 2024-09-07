@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <link rel="stylesheet" href="style.css">
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="description_section">
+        <article class="title_container">
+          <h1 id="title">Learn to code by watching others</h1>
+        </article>
+        <article class="desc">
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </article>
+      </section>
+      <section class="info_section">
+        <article class="try_it_free_container">
+          <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+        </article>
+        <article class="form_container">
+          <form action="/" class="form" novalidate>
+            <div class="form_control">
+              <div class="form_control_input">
+                <input
+                  type="text"
+                  name="first_name"
+                  id="first_name"
+                  placeholder="First Name"
+                  autocomplete="off"
+                />
+                <img src="images/icon-error.svg" alt="Icon Error" class="error_img"/>
+                <span class="error_msg"></span>
+              </div>
+            </div>
+            <div class="form_control">
+              <div class="form_control_input">
+                <input
+                  type="text"
+                  name="last_name"
+                  id="last_name"
+                  placeholder="Last Name"
+                />
+                <img src="images/icon-error.svg" alt="Icon Error" />
+                <span class="error_msg"> </span>
+              </div>
+            </div>
+            <div class="form_control">
+              <div class="form_control_input">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email Address"
+                  
+                />
+                <img src="images/icon-error.svg" alt="Icon Error" />
+                <span class="error_msg"> </span>
+              </div>
+            </div>
+            <div class="form_control">
+              <div class="form_control_input">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                />
+                <img src="images/icon-error.svg" alt="Icon Error" />
+                <span class="error_msg"> </span>
+              </div>
+            </div>
+            <div class="form_control">
+              <div class="form_control_input">
+                <button id="btn">Claim your free trial</button>
+              </div>
+            </div>
+            <div class="form_control">
+              <div class="form_control_input">
+                <p class="confirmation">
+                  By clicking the button, you are agreeing to our
+                  <a href="#">Terms and Services</a>
+                </p>
+              </div>
+            </div>
+          </form>
+        </article>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
